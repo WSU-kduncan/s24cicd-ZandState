@@ -1,5 +1,4 @@
-### Documentation Part 1
-
+# Documentation Part 1
 - Overview
   - What:
     - We are creating a Docker Image using a Dockerfile to set up a container that servers web content using apache2 
