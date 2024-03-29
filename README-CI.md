@@ -30,7 +30,7 @@
    - Log into Docker Hub and click on repositories
    - Click create repository
    - Use your account username in namespace and name your repo
-   - Add a discription if you want and then choose vibility option (Public or Private)
+   - Add a discription if you want and then choose visibility option (Public or Private)
  - Authenticate to Docker Hub with CLI (Command Line Interface):
    - On the command line do `docker login`
    - Enter your username and password
