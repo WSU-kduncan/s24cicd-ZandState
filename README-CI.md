@@ -34,7 +34,7 @@
  - Authenticate to Docker Hub with CLI (Command Line Interface):
    - On the command line do `docker login`
    - Enter your username and password
-     - You can type your password in or use your Personal Acess Token (PAT) which is more perferred because of increased security
+     - You can type your password in or use your Personal Acess Token (PAT) which is more preferred because of increased security
    - ![docker login](./images_Project4/dockerlogin.png)
  - Push images to Docker Hub w/o using GitHub Actions:
 
