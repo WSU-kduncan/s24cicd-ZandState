@@ -48,16 +48,16 @@
      - Choose Actions
      - Then Click the green New repository secret button under the Repository Secrets section
    - My Current Secrets:
-     - (img here)
+     - ![git secrets used](./images_Project4/mygitsecret.png)
  - GitHub Workflow:
    - What:
      - The workflow automates the process of logging in, building, and pushing a Docker Image to Docker Hub using GitHub Actions.
    - When:
      - The workflow runner triggers on any push to the main branch per the workflows yml file.
-     - (img here)
+     - ![docker login](./images_Project4/onpushmain.png)
    - Variables:
      - I am using
-     - (img here)     
+     - ![docker login](./images_Project4/workflowyml.png)    
 
 # Resources
   - https://docs.docker.com/reference/cli/docker/image/build/
