@@ -26,16 +26,17 @@
     - ![docker installed](./images_Project4/runningcontainer.png)
 
 # Documentation Part 2
- - How to make Docker Hub repo:
+ - Make Docker Hub repo:
    - Log into Docker Hub and click on repositories
    - Click create repository
    - Use your account username in namespace and name your repo
    - Add a discription if you want and then choose vibility option (Public or Private)
- - How to authenticate to Docker Hub with CLI (Command Line Interface):
+ - Authenticate to Docker Hub with CLI (Command Line Interface):
    - On the command line do `docker login`
    - Enter your username and password
-     - You can type your password in or use your Personal Acess Token (PAT)
-    - (img here)
+     - You can type your password in or use your Personal Acess Token (PAT) which is more perferred because of increased security
+   - ![docker login](./images_Project4/dockerlogin.png)
+ - Push images to Docker Hub w/o using GitHub Actions:
 
 # Resources
   - https://docs.docker.com/reference/cli/docker/image/build/
