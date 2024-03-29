@@ -37,9 +37,27 @@
      - You can type your password in or use your Personal Acess Token (PAT) which is more preferred because of increased security
    - ![docker login](./images_Project4/dockerlogin.png)
  - Push images to Docker Hub w/o using GitHub Actions:
+   -  First make sure you are logged in to docker on your CLI
+   -  Then you can use `docker push dockerhub_username_here/image_name:tag`
+   -  This will push your image to Docker Hub and you will see it in your repositories page
  - [My Docker Hub repo](https://hub.docker.com/repositories/isolat3d)
  - GitHub Secrets:
+   - How to set:
+     - To set a secret navigate to the settings of your repository
+     - Click on Secrets and Variables
+     - Choose Actions
+     - Then Click the green New repository secret button under the Repository Secrets section
+   - My Current Secrets:
+     - (img here)
  - GitHub Workflow:
+   - What:
+     - The workflow automates the process of logging in, building, and pushing a Docker Image to Docker Hub using GitHub Actions.
+   - When:
+     - The workflow runner triggers on any push to the main branch per the workflows yml file.
+     - (img here)
+   - Variables:
+     - I am using
+     - (img here)     
 
 # Resources
   - https://docs.docker.com/reference/cli/docker/image/build/
