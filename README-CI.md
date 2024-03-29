@@ -38,6 +38,8 @@
    - ![docker login](./images_Project4/dockerlogin.png)
  - Push images to Docker Hub w/o using GitHub Actions:
  - [My Docker Hub repo](https://hub.docker.com/repositories/isolat3d)
+ - GitHub Secrets:
+ - GitHub Workflow:
 
 # Resources
   - https://docs.docker.com/reference/cli/docker/image/build/
