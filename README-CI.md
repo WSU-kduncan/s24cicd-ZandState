@@ -27,7 +27,7 @@
 
 # Documentation Part 2
  - Make Docker Hub repo:
-   - Log into Docker Hub and click on repositories
+   - Log into Docker Hub and click on `Repositories`
    - Click `create repository`
    - Use your account username in namespace and name your repo
    - Add a discription if you want and then choose visibility option (Public or Private)
