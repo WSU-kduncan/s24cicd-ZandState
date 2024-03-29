@@ -57,7 +57,7 @@
      - ![docker login](./images_Project4/onpushmain.png)
    - Variables:
      - I am using my own custom variables (secrets) for `DOCKER_USERNAME` and `DOCKER_PASSWORD` as you can see below in the screenshot.
-     - These variables would need to be changed to their own custome secrets if a user is to use the main.yml for there own enviroment and use case.
+     - These variables would need to be changed to their own custome secrets if a user is to use the `main.yml` for there own enviroment and use case.
      - ![docker login](./images_Project4/workflowyml.png)    
 
 # Resources
