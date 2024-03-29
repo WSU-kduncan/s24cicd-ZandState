@@ -24,6 +24,22 @@
   - View the running container
     - To view the running container you can go to your web browser and type localhost or you can type in the loopback interface ip
     - ![docker installed](./images_Project4/runningcontainer.png)
+
+# Documentation Part 2
+ - How to make Docker Hub repo:
+   - Log into Docker Hub and click on repositories
+   - Click create repository
+   - Use your account username in namespace and name your repo
+   - Add a discription if you want and then choose vibility option (Public or Private)
+ - How to authenticate to Docker Hub with CLI (Command Line Interface):
+   - On the command line do `docker login`
+   - Enter your username and password
+     - You can type your password in or use your Personal Acess Token (PAT)
+    - (img here)
+
 # Resources
   - https://docs.docker.com/reference/cli/docker/image/build/
-  - https://www.digitalocean.com/community/tutorials/apache-web-server-dockerfile 
+  - https://www.digitalocean.com/community/tutorials/apache-web-server-dockerfile
+  - https://docs.docker.com/build/ci/github-actions/
+  - https://github.com/marketplace/actions/build-and-push-docker-images
+  - https://docs.github.com/en/actions/publishing-packages/publishing-docker-images#publishing-images-to-docker-hub
