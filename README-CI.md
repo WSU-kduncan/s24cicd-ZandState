@@ -37,6 +37,7 @@
      - You can type your password in or use your Personal Acess Token (PAT) which is more preferred because of increased security
    - ![docker login](./images_Project4/dockerlogin.png)
  - Push images to Docker Hub w/o using GitHub Actions:
+ - [My Docker Hub repo](https://hub.docker.com/repositories/isolat3d)
 
 # Resources
   - https://docs.docker.com/reference/cli/docker/image/build/
