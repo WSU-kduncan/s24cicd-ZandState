@@ -28,7 +28,7 @@
 # Documentation Part 2
  - Make Docker Hub repo:
    - Log into Docker Hub and click on repositories
-   - Click create repository
+   - Click `create repository`
    - Use your account username in namespace and name your repo
    - Add a discription if you want and then choose visibility option (Public or Private)
  - Authenticate to Docker Hub with CLI (Command Line Interface):
@@ -43,10 +43,10 @@
  - [My Docker Hub repo](https://hub.docker.com/repositories/isolat3d)
  - GitHub Secrets:
    - How to set:
-     - To set a secret navigate to the settings of your repository
-     - Click on Secrets and Variables
-     - Choose Actions
-     - Then Click the green New repository secret button under the Repository Secrets section
+     - To set a secret navigate to the `settings` of your repository
+     - Click on `Secrets and Variables`
+     - Choose `Actions`
+     - Then Click the green `New repository secret` button under the Repository Secrets section
    - My Current Secrets:
      - ![git secrets used](./images_Project4/mygitsecret.png)
  - GitHub Workflow:
@@ -56,7 +56,8 @@
      - The workflow runner triggers on any push to the main branch per the workflows yml file.
      - ![docker login](./images_Project4/onpushmain.png)
    - Variables:
-     - I am using
+     - I am using my own custom variables (secrets) for `DOCKER_USERNAME` and `DOCKER_PASSWORD` as you can see below in the screenshot.
+     - These variables would need to be changed to their own custome secrets if a user is to use the main.yml for there own enviroment and use case.
      - ![docker login](./images_Project4/workflowyml.png)    
 
 # Resources
