@@ -60,12 +60,12 @@
      - These variables would need to be changed to their own custome secrets if a user is to use the `main.yml` for there own enviroment and use case.
      - ![docker login](./images_Project4/workflowyml.png)    
 
+# Documentation Project 4 Part 3
+  - ![project 4 continuous integration diagram](./images_Project4/proj4diagram.png)
+
 # Resources
   - https://docs.docker.com/reference/cli/docker/image/build/
   - https://www.digitalocean.com/community/tutorials/apache-web-server-dockerfile
   - https://docs.docker.com/build/ci/github-actions/
   - https://github.com/marketplace/actions/build-and-push-docker-images
   - https://docs.github.com/en/actions/publishing-packages/publishing-docker-images#publishing-images-to-docker-hub
-
-# Documentation Project 4 Part 3
-  - 
