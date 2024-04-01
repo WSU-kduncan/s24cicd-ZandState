@@ -1,4 +1,4 @@
-# Documentation Part 1
+# Documentation Project 4 Part 1
 - Overview
   - What:
     - We are creating a Docker Image using a Dockerfile to set up a container that servers web content using apache2 
@@ -25,7 +25,7 @@
     - To view the running container you can go to your web browser and type localhost or you can type in the loopback interface ip
     - ![docker installed](./images_Project4/runningcontainer.png)
 
-# Documentation Part 2
+# Documentation Project 4 Part 2
  - Make Docker Hub repo:
    - Log into Docker Hub and click on `Repositories`
    - Click `create repository`
@@ -67,5 +67,5 @@
   - https://github.com/marketplace/actions/build-and-push-docker-images
   - https://docs.github.com/en/actions/publishing-packages/publishing-docker-images#publishing-images-to-docker-hub
 
-# Documentaion Part 3 Diagram
-  - (diagram img)
+# Documentation Project 4 Part 3
+  - 
