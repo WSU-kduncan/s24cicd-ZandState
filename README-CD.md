@@ -12,6 +12,7 @@
     - The  
     
 # Resources
+ - https://semver.org/
  - https://git-scm.com/book/en/v2/Git-Basics-Tagging
  - https://docs.docker.com/build/ci/github-actions/manage-tags-labels/
 
