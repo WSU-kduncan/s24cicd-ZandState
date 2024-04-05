@@ -9,7 +9,7 @@
   - Generate tags
     - In Github to make a tag you need to use `git tag -a v*.*.* -m "msg goes here"`. Make sure the `v*.*.*` portion matches the workflows `yml` file tag formating under `on:push:tags:`. Once the tag is made do `git push origin v*.*.*`.
   - Behavior
-    - The
+    - The workflow currently runs whenever there is a tag that is pushed to the git repo. Once the tag is pushed it checkouts the main branch, uses the Git Action docker metadata action for getting the docker image tag/verison, logs in to Docker Hub, and finally builds and pushes the images with the tagged verisons.
   - [Link to my Docker Hub Repo](https://hub.docker.com/repositories/isolat3d) 
     
 # Resources
