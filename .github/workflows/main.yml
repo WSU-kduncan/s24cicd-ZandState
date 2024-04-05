@@ -17,9 +17,9 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images:
+          images: |
             ${{ secrets.DOCKER_USERNAME }}/apacheimageproj4
-          tags:
+          tags: |
             type=semver,pattern=v{{major}}.{{minor}}
             type=semver,pattern=v{{major}}
       -
