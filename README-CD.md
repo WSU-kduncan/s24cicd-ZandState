@@ -7,7 +7,7 @@
     - Tools
       - All you need is your workflows `main.yml` file from Project 4 and you need to use the `git tag` command to make tags. Finally you need a GitHub action called `docker/metadata-action` which will allow you to configure and manage your semantic versioning.
   - Generate tags
-    - In Github to make a tag you need to use git `git tag -a v*.*.* -m "msg goes here"`. Make sure the `v*.*.*` portion matches the workflows `yml` file tag formating under `on:push:tags:`. Once the tag is made do `git push origin v*.*.*`.
+    - In Github to make a tag you need to use `git tag -a v*.*.* -m "msg goes here"`. Make sure the `v*.*.*` portion matches the workflows `yml` file tag formating under `on:push:tags:`. Once the tag is made do `git push origin v*.*.*`.
   - Behavior
     - The  
     
