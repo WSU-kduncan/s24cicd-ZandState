@@ -9,7 +9,8 @@
   - Generate tags
     - In Github to make a tag you need to use `git tag -a v*.*.* -m "msg goes here"`. Make sure the `v*.*.*` portion matches the workflows `yml` file tag formating under `on:push:tags:`. Once the tag is made do `git push origin v*.*.*`.
   - Behavior
-    - The  
+    - The
+  - [Link to my Docker Hub Repo](https://hub.docker.com/repositories/isolat3d) 
     
 # Resources
  - https://semver.org/
