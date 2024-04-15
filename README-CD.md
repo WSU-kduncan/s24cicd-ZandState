@@ -11,7 +11,13 @@
   - Behavior
     - The workflow currently runs whenever there is a tag that is pushed to the git repo. Once the tag is pushed it checkouts the main branch, uses the Git Action docker metadata action for getting the docker image tag/verison, logs in to Docker Hub, and finally builds and pushes the images with the tagged verisons.
   - [Link to my Docker Hub Repo](https://hub.docker.com/repositories/isolat3d) 
-    
+
+# Documentation Project 5 Part 2
+  - Docker Image container running in AWS Instance (shows the eip of instance as proof):
+    - img
+
+
+
 # Resources
  - https://semver.org/
  - https://git-scm.com/book/en/v2/Git-Basics-Tagging
