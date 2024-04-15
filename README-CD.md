@@ -16,6 +16,8 @@
   - [How to install Docker on AWS Instance/Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
   - Docker Image Container running in AWS Instance (shows the eip of instance as proof):
     - ![docker installed](./images_Project4/eipofamazoninstancerunning.png)
+  - Script to pull new image and restart:
+    - ![pull and restart form dockerhub](./images_Project4/pullrestart.png)  
 
 
 
