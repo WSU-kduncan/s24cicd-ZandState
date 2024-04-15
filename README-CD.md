@@ -13,8 +13,9 @@
   - [Link to my Docker Hub Repo](https://hub.docker.com/repositories/isolat3d) 
 
 # Documentation Project 5 Part 2
-  - Docker Image container running in AWS Instance (shows the eip of instance as proof):
-    - img
+  - [How to install Docker on AWS Instance/Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+  - Docker Image Container running in AWS Instance (shows the eip of instance as proof):
+    - ![docker installed](./images_Project4/eipofamazoninstancerunning.png)
 
 
 
