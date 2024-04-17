@@ -35,7 +35,7 @@ sudo apt-get update`
     - What the webhook does is on an event, the workflow run, the webhook triggers which runs the `delpoy.sh` script.
     - The webhooks `.json` should be in the home directory of the user. In terms of the actuall service itself that is in `/lib/systemd/system`
     - For the webhook to start you need to vim the webhook.service file in the `/lib/systemd/system` and configure it to point to your `.json` file for your hook in the home directory.
-    - img
+    - ![pull and restart from dockerhub](./images_Project4/webservicehookconf.png)
     - Once this is all done do `sudo systemctl daemon-reload` then `sudo systemctl restart webhook.service` because the changes where made to the webhook servie file and once this is done the changes will take effect.
 
 
