@@ -27,7 +27,7 @@ sudo apt-get update`
   - Docker Image Container running in AWS Instance (shows the eip of instance as proof):
     - ![docker installed](./images_Project4/eipofamazoninstancerunning.png)
   - Script to pull new image and restart:
-    - The delopy.sh script is a script that allows us to create an automated process that kills an old container by stoping it, removing it, then a fresh image is pulled, finally a new container is run and then always restarts the container if it stops.
+    - The `delopy.sh` script is a script that allows us to create an automated process that kills an old container by stoping it, removing it, then a fresh image is pulled, finally a new container is run and then always restarts the container if it stops.
     - The `deploy.sh` is in the users home directory.
     - ![pull and restart from dockerhub](./images_Project4/pullrestart.png)
   - Webhook:
@@ -37,6 +37,7 @@ sudo apt-get update`
     - For the webhook to start you need to vim the webhook.service file in the `/lib/systemd/system` and configure it to point to your `.json` file for your hook in the home directory.
     - ![pull and restart from dockerhub](./images_Project4/webservicehookconf.png)
     - Once this is all done do `sudo systemctl daemon-reload` then `sudo systemctl restart webhook.service` because the changes where made to the webhook servie file and once this is done the changes will take effect.
+    - To configure Github to message the listener go to the repos settings and click on the webhooks setting. Put the url of the hook in the webhook section. Then 
 
 
 
