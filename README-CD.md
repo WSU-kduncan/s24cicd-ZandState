@@ -37,7 +37,7 @@ sudo apt-get update`
     - For the webhook to start you need to vim the webhook.service file in the `/lib/systemd/system` and configure it to point to your `.json` file for your hook in the home directory.
     - ![pull and restart from dockerhub](./images_Project4/webservicehookconf.png)
     - Once this is all done do `sudo systemctl daemon-reload` then `sudo systemctl restart webhook.service` because the changes where made to the webhook servie file and once this is done the changes will take effect.
-    - To configure Github to message the listener go to the repos settings and click on the webhooks setting. Put the url of the hook in the webhook section. Then 
+    - To configure Github to message the listener go to the repos settings and click on the webhooks setting. Put the url of the hook in the webhook payload url section. Then choose select individual event, choose workflow run event, and add the webhook.
 
 
 
