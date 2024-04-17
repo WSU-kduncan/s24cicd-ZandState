@@ -1,1 +1,1 @@
-# Contains hook and script configuration
+# Contains hook, script, and configurations
