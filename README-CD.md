@@ -28,6 +28,7 @@ sudo apt-get update`
     - ![docker installed](./images_Project4/eipofamazoninstancerunning.png)
   - Script to pull new image and restart:
     - The `delopy.sh` script is a script that allows us to create an automated process that kills an old container by stoping it, removing it, then a fresh image is pulled, finally a new container is run and then always restarts the container if it stops.
+    - ![deploy script](./images_Project4/deploysh.png)
     - The `deploy.sh` is in the users home directory.
     - ![pull and restart from dockerhub](./images_Project4/pullrestart.png)
   - Webhook:
