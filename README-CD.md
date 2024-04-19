@@ -1,4 +1,4 @@
-![image](https://github.com/WSU-kduncan/s24cicd-ZandState/assets/111777752/ec5dfcc6-e953-423c-b98b-f9b499f4ce5c)# Documentation Project 5 Part 1
+# Documentation Project 5 Part 1
   - Overview
     - What
       - In the workflows `main.yml` file we are now implementing semantic versioning with a `major` and `major.minor` verison. This now allows me to keep versions of my image as changes are made along with the `latest` version. The workflow runs when a version/git tag is pushed in a specifed format, `v*.*.*`, this then pushes my image along with the version/tag to Docker Hub.
