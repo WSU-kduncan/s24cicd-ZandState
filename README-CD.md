@@ -1,4 +1,4 @@
-# Documentation Project 5 Part 1
+![image](https://github.com/WSU-kduncan/s24cicd-ZandState/assets/111777752/ec5dfcc6-e953-423c-b98b-f9b499f4ce5c)# Documentation Project 5 Part 1
   - Overview
     - What
       - In the workflows `main.yml` file we are now implementing semantic versioning with a `major` and `major.minor` verison. This now allows me to keep versions of my image as changes are made along with the `latest` version. The workflow runs when a version/git tag is pushed in a specifed format, `v*.*.*`, this then pushes my image along with the version/tag to Docker Hub.
@@ -36,6 +36,8 @@ sudo apt-get update`
   - Webhook:
     - Use `sudo apt-get install webhook` to install adnanh's webhook
     - What the webhook does is on an event, the workflow run, the webhook triggers which runs the `delpoy.sh` script.
+    - First make a `file_name_here.json` file and then put in your hook:
+      - ![hook.json file for webhook service](./images_Project4/json.png)
     - The webhooks `.json` should be in the home directory of the user. In terms of the actuall service itself that is in `/lib/systemd/system`
     - For the webhook to start you need to vim the webhook.service file in the `/lib/systemd/system` and configure it to point to your `.json` file for your hook in the home directory.
     - For `ConditionPathExists` point to the `.json` file that has your hook configured by specifiying the path to it.
