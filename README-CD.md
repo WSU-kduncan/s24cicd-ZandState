@@ -23,7 +23,8 @@
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update` 
+sudo apt-get update`
+  - Now that its installed pull the image and run a container
   - Docker Image Container running in AWS Instance (shows the eip of instance as proof):
     - ![docker installed](./images_Project4/eipofamazoninstancerunning.png)
   - Script to pull new image and restart:
