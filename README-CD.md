@@ -30,7 +30,8 @@ sudo apt-get update`
     - The `delopy.sh` script is a script that allows us to create an automated process that kills an old container by stoping it, removing it, then a fresh image is pulled, finally a new container is run and then always restarts the container if it stops.
     - ![deploy script](./images_Project4/deploysh.png)
     - The `deploy.sh` is in the users home directory.
-    - ![pull and restart from dockerhub](./images_Project4/pullrestart.png)
+    - As proof we can see the `deploy.sh` do exactly as intended by looking at the continaer ids in the screenshot below
+      - ![pull and restart from dockerhub](./images_Project4/pullrestart.png)
   - Webhook:
     - Use `sudo apt-get install webhook` to install adnanh's webhook
     - What the webhook does is on an event, the workflow run, the webhook triggers which runs the `delpoy.sh` script.
